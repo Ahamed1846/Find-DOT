@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background-image: url('./bg/loginbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.option{
+    text-align: center;
+    font-weight: 700;
+    font-size: larger;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.541) 5px 5px 10px;
+}
+#timer{
+    background-color: rgb(234, 238, 246);
+}
+#classic{
+    background-color: rgb(248, 250, 251);
+}
+
+@media screen and (max-width:767px) {
+    body{
+        flex-direction: column;
+    }
+}
